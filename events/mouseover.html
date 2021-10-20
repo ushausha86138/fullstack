@@ -1,0 +1,20 @@
+<html>
+<body>
+<div>
+<h1>onmouseover</h1>
+<p>mouseover to change button background colour</p>
+<input type="button" onmouseover="ChangeColor()" value="mouseover" id="btn1" />    
+  
+<script>
+
+function ChangeColor()   
+     {  
+          document.getElementById('btn1').style.backgroundColor = 'yellow';  
+          setTimeout("ChangeColor2()", 2000);  
+     }  
+
+</script>
+</div>
+
+</body>
+</html>

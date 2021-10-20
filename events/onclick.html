@@ -1,0 +1,20 @@
+<html>
+<body>
+<div>
+<h1>onclick</h1>
+<p>click to change button background colour</p>
+<input type="button" onclick="ChangeColor()" value="onclick" id="btn1" />    
+  
+<script>
+
+function ChangeColor()   
+     {  
+          document.getElementById('btn1').style.backgroundColor = 'black';  
+          setTimeout("ChangeColor2()", 2000);  
+     }  
+
+</script>
+</div>
+
+</body>
+</html>

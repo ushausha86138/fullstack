@@ -1,0 +1,20 @@
+<html>
+<body>
+<div>
+<h1>ondblclick</h1>
+<p>dblclick to change button background colour</p>
+<input type="button" ondblclick="ChangeColor()" value="ondblclick" id="btn1" />    
+  
+<script>
+
+function ChangeColor()   
+     {  
+          document.getElementById('btn1').style.backgroundColor = 'purple';  
+          setTimeout("ChangeColor2()", 2000);  
+     }  
+
+</script>
+</div>
+
+</body>
+</html>
