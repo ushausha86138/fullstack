@@ -1,0 +1,19 @@
+<html>
+<body>
+
+<h1>onmouseout</h1>
+<p>mouseout to change button background colour</p>
+<input type="button" onmouseout="ChangeColor()" value="mouse out" id="btn1" />    
+  
+<script>
+
+function ChangeColor()   
+     {  
+          document.getElementById('btn1').style.backgroundColor = 'Red';  
+          setTimeout("ChangeColor2()", 2000);  
+     }  
+
+</script>
+
+</body>
+</html>
